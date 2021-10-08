@@ -1,10 +1,10 @@
 const authConfig = {
   "siteName": "GoIndex",  // 网站名称
-  "siteIcon": "//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.6/images/favicon.ico", //网站图标
+  "siteIcon": "//cdn.jsdelivr.net/gh/qyd8/img@main/logo.ico", //网站图标
   "version": "2.0.5", // 程序版本
-  "client_id": "",
-  "client_secret": "",
-  "refresh_token": "",  // 授权token
+  "client_id": "202264815644.apps.googleusercontent.com",
+  "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
+  "refresh_token": "1//0dIn-aYP3HOwRCgYIARAAGA0SNwF-L9IrzkYwAm22JRNEomb8oMZy_3cYpID7oV_0_S_mmaM7CDnx56Jfdf-55fST3SfTfcoRbxo",  // 授权token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -20,26 +20,18 @@ const authConfig = {
    */
   "roots": [
     {
-      id: "root",
-      name: "root",
+      id: "0AFjcV2H_xcTAUk9PVA",
+      name: "Net Disk",
       user: '',
       pass: "",
       protect_file_link: true
     },
     {
-      id: "drive_id",
-      name: "团队盘1",
-      user: 'user1',
-      pass: "111",
+      id: "root",
+      name: "Personal Disk",
+      user: '11858',
+      pass: "",
       protect_file_link: true
-    },
-    {
-      id: "folder_id",
-      name: "文件夹",
-      // 只设置密码、只设置用户名、同时设置用户名密码，都是可以的
-      user: '',
-      pass: "222",
-      protect_file_link: false
     }
   ],
   /**
@@ -71,7 +63,7 @@ const authConfig = {
  */
 const themeConfig = {
   // 仓库地址
-  "url": "//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe",
+  "url": "//cdn.jsdelivr.net/gh/qyd8/goIndex-theme-nexmoe",
   // 主题 ( light:亮色 | dark:深色 )
   "theme": "light", 
   // 主色
@@ -79,20 +71,20 @@ const themeConfig = {
   // 强调色
   "accent_color": "blue",
   // 头像
-  "avatar": "//cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/avatar.png",
+  "avatar": "//cdn.jsdelivr.net/gh/qyd8/img@main/logo.png",
   // 背景图片
-  "bimg": "//cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/20/cover_01.jpg",
+  "bimg": "//cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/20/cov",
   // 显示菜单
   "menu_show": true,
   // 菜单组
   "menus": [
     {
       name: "Blog",
-      url: "//mrzgh.top"
+      url: "//mynz.eu.org"
     },
     {
-      name: "Log in",
-      url: "//drive.google.com"
+      name: "Google Drive",
+      url: "//drive.google.com/drive/folders/0AFjcV2H_xcTAUk9PVA"
     }
   ],
   // 定义可预览的文件
